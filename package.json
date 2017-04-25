@@ -1,6 +1,6 @@
 {
     "author": "kai zhu <kaizhu256@gmail.com>",
-    "description": "#### basic test coverage for  deepcopy (v0.6.3)  [![npm package](https://img.shields.io/npm/v/npmtest-deepcopy.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-deepcopy) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-deepcopy.svg)](https://travis-ci.org/npmtest/node-npmtest-deepcopy)",
+    "description": "#### basic test coverage for  [deepcopy (v0.6.3)](https://github.com/sasaplus1/deepcopy.js#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-deepcopy.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-deepcopy) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-deepcopy.svg)](https://travis-ci.org/npmtest/node-npmtest-deepcopy)",
     "devDependencies": {
         "electron-lite": "kaizhu256/node-electron-lite#alpha",
         "utility2": "kaizhu256/node-utility2#alpha"

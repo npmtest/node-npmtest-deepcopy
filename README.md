@@ -1,6 +1,6 @@
 # npmtest-deepcopy
 
-#### basic test coverage for  deepcopy (v0.6.3)  [![npm package](https://img.shields.io/npm/v/npmtest-deepcopy.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-deepcopy) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-deepcopy.svg)](https://travis-ci.org/npmtest/node-npmtest-deepcopy)
+#### basic test coverage for  [deepcopy (v0.6.3)](https://github.com/sasaplus1/deepcopy.js#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-deepcopy.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-deepcopy) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-deepcopy.svg)](https://travis-ci.org/npmtest/node-npmtest-deepcopy)
 
 #### deep copy for any data
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-deepcopy/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-deepcopy/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-deepcopy/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-deepcopy/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-deepcopy/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-deepcopy/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-deepcopy/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-deepcopy/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-deepcopy/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-deepcopy/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-deepcopy/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-deepcopy/build/coverage.html/index.html)
 
@@ -35,16 +35,70 @@
 ```json
 
 {
-    "name": "deepcopy",
-    "version": "0.6.3",
-    "author": "sasa+1 <sasaplus1@gmail.com>",
+    "author": {
+        "name": "sasa+1"
+    },
+    "bugs": {
+        "url": "https://github.com/sasaplus1/deepcopy.js/issues"
+    },
     "contributors": [
-        "kjirou <kjirou.web@gmail.com>"
+        {
+            "name": "kjirou"
+        }
     ],
+    "dependencies": {},
     "description": "deep copy for any data",
-    "main": "./index.js",
+    "devDependencies": {
+        "babel": "^6.5.2",
+        "babel-cli": "^6.6.5",
+        "babel-core": "^6.7.2",
+        "babel-eslint": "^6.0.4",
+        "babel-loader": "^6.2.4",
+        "babel-plugin-add-module-exports": "^0.2.1",
+        "babel-plugin-check-es2015-constants": "^6.7.2",
+        "babel-plugin-espower": "^2.1.2",
+        "babel-plugin-transform-es2015-arrow-functions": "^6.5.2",
+        "babel-plugin-transform-es2015-block-scoping": "^6.7.1",
+        "babel-plugin-transform-es2015-computed-properties": "^6.6.5",
+        "babel-plugin-transform-es2015-modules-commonjs": "^6.7.0",
+        "babel-plugin-transform-es2015-parameters": "^6.7.0",
+        "babel-plugin-transform-es2015-template-literals": "^6.6.5",
+        "babel-plugin-transform-es3-member-expression-literals": "^6.5.0",
+        "babel-plugin-transform-es3-property-literals": "^6.5.0",
+        "babel-plugin-transform-strict-mode": "^6.6.5",
+        "babel-plugin-transform-undefined-to-void": "^6.5.0",
+        "coffee-script": "^1.10.0",
+        "eslint": "^2.4.0",
+        "eslint-config-sasaplus1": "github:sasaplus1-prototype/eslint-config-sasaplus1",
+        "espower-babel": "4.0.3",
+        "karma": "^0.13.15",
+        "karma-chrome-launcher": "^1.0.1",
+        "karma-firefox-launcher": "^1.0.0",
+        "karma-mocha": "^1.0.1",
+        "karma-safari-launcher": "^1.0.0",
+        "karma-webpack": "^1.7.0",
+        "mocha": "^2.3.4",
+        "parallelshell": "^2.0.0",
+        "power-assert": "^1.3.1",
+        "rimraf": "^2.4.4",
+        "webpack": "^1.12.9"
+    },
+    "directories": {},
+    "dist": {
+        "shasum": "634780f2f8656ab771af8fa8431ed1ccee55c7b0",
+        "tarball": "https://registry.npmjs.org/deepcopy/-/deepcopy-0.6.3.tgz"
+    },
+    "gitHead": "81c24630fbce4f189e254cda9eae42dd6b2c7a81",
+    "homepage": "https://github.com/sasaplus1/deepcopy.js#readme",
     "license": "MIT",
-    "readmeFilename": "README.md",
+    "main": "./index.js",
+    "maintainers": [
+        {
+            "name": "sasaplus1"
+        }
+    ],
+    "name": "deepcopy",
+    "optionalDependencies": {},
     "repository": {
         "type": "git",
         "url": "git://github.com/sasaplus1/deepcopy.js.git"
@@ -67,41 +121,8 @@
         "travis": "npm run mocha",
         "webpack": "webpack --colors --display-error-details --progress"
     },
-    "devDependencies": {
-        "babel": "^6.5.2",
-        "babel-cli": "^6.6.5",
-        "babel-core": "^6.7.2",
-        "babel-eslint": "^6.0.4",
-        "babel-loader": "^6.2.4",
-        "babel-plugin-add-module-exports": "^0.2.1",
-        "babel-plugin-check-es2015-constants": "^6.7.2",
-        "babel-plugin-espower": "^2.1.2",
-        "babel-plugin-transform-es2015-arrow-functions": "^6.5.2",
-        "babel-plugin-transform-es2015-block-scoping": "^6.7.1",
-        "babel-plugin-transform-es2015-computed-properties": "^6.6.5",
-        "babel-plugin-transform-es2015-modules-commonjs": "^6.7.0",
-        "babel-plugin-transform-es2015-parameters": "^6.7.0",
-        "babel-plugin-transform-es2015-template-literals": "^6.6.5",
-        "babel-plugin-transform-es3-member-expression-literals": "^6.5.0",
-        "babel-plugin-transform-es3-property-literals": "^6.5.0",
-        "babel-plugin-transform-strict-mode": "^6.6.5",
-        "babel-plugin-transform-undefined-to-void": "^6.5.0",
-        "coffee-script": "^1.10.0",
-        "eslint": "^2.4.0",
-        "eslint-config-sasaplus1": "sasaplus1-prototype/eslint-config-sasaplus1.git",
-        "espower-babel": "4.0.3",
-        "karma": "^0.13.15",
-        "karma-chrome-launcher": "^1.0.1",
-        "karma-firefox-launcher": "^1.0.0",
-        "karma-mocha": "^1.0.1",
-        "karma-safari-launcher": "^1.0.0",
-        "karma-webpack": "^1.7.0",
-        "mocha": "^2.3.4",
-        "parallelshell": "^2.0.0",
-        "power-assert": "^1.3.1",
-        "rimraf": "^2.4.4",
-        "webpack": "^1.12.9"
-    }
+    "version": "0.6.3",
+    "bin": {}
 }
 ```
 
